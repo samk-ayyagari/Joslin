@@ -1,0 +1,107 @@
+[
+  {
+    "catId": "F01",
+    "name": "Grains and Grain Products",
+    "chineseName": "穀類及其製品"
+  },
+  {
+    "catId": "F02",
+    "name": "Legumes and Legume Products",
+    "chineseName": "豆類及其製品"
+  },
+  {
+    "catId": "F03",
+    "name": "Starchy Vegetables and Their Products",
+    "chineseName": "澱粉類蔬菜食品及其製品"
+  },
+  {
+    "catId": "F04",
+    "name": "Fruits and Fruit Products",
+    "chineseName": "水果類及其製品"
+  },
+  {
+    "catId": "F05",
+    "name": "Dairy and Dairy Products",
+    "chineseName": "奶類及其製品"
+  },
+  {
+    "catId": "F06",
+    "name": "Non-starchy Vegetables and Their Products",
+    "chineseName": "非澱粉類蔬菜及其製品"
+  },
+  {
+    "catId": "F07",
+    "name": "Mushrooms and Mushroom Products",
+    "chineseName": "菇類及其製品"
+  },
+  {
+    "catId": "F08",
+    "name": "Seaweed and Seaweed Products",
+    "chineseName": "海藻類及其製品"
+  },
+  {
+    "catId": "F09",
+    "name": "Seafood and Seafood Products",
+    "chineseName": "水產類及其製品"
+  },
+  {
+    "catId": "F10",
+    "name": "Poultry and Poultry Products",
+    "chineseName": "家禽類及其製品"
+  },
+  {
+    "catId": "F11",
+    "name": "Beef and Beef Products",
+    "chineseName": "牛肉類及其製品"
+  },
+  {
+    "catId": "F12",
+    "name": "Pork and Pork Products",
+    "chineseName": "豬肉類及其製品"
+  },
+  {
+    "catId": "F13",
+    "name": "Lambs, Games and Their Products",
+    "chineseName": "羊肉、野味類及其製品"
+  },
+  {
+    "catId": "F14",
+    "name": "Eggs and Egg Products",
+    "chineseName": "蛋類及其製品"
+  },
+  {
+    "catId": "F15",
+    "name": "Nuts, Seeds and Their Products",
+    "chineseName": "果仁瓜籽類及其製品"
+  },
+  {
+    "catId": "F16",
+    "name": "Fats and Oils",
+    "chineseName": "油脂類"
+  },
+  {
+    "catId": "F17",
+    "name": "Broths, Stocks and Their Products",
+    "chineseName": "清湯、上湯及其製品"
+  },
+  {
+    "catId": "F18",
+    "name": "Condiments and Sauces",
+    "chineseName": "調味品及醬料"
+  },
+  {
+    "catId": "F19",
+    "name": "Herbs and Spices",
+    "chineseName": "香草及香料"
+  },
+  {
+    "catId": "F20",
+    "name": "Flour",
+    "chineseName": "麵粉及其他穀類磨成的粉末"
+  },
+  {
+    "catId": "F21",
+    "name": "Sweets",
+    "chineseName": "糖類醬品"
+  }
+]

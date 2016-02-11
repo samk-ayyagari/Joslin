@@ -1,0 +1,32 @@
+[
+  {
+    "cuisineId":"universal",
+    "name":"Universal",
+    "chineseName":"穀類及其製品"
+  },
+  {
+    "cuisineId":"chinese",
+    "name":"Chinese Cuisine",
+    "chineseName":"中國菜"
+  },
+  {
+    "cuisineId":"indian",
+    "name":"Indian Cuisine",
+    "chineseName":"印度菜"
+  },
+  {
+    "cuisineId":"japanese",
+    "name":"Japanese Cuisine",
+    "chineseName":"日本菜"
+  },
+  {
+    "cuisineId":"korean",
+    "name":"Korean Cuisine ",
+    "chineseName":"韓國菜"
+  },
+  {
+    "cuisineId":"vietnamese",
+    "name":"Vietnamese Cuisine ",
+    "chineseName":"越南菜"
+  }
+]

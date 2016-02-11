@@ -1,0 +1,23 @@
+[
+  {
+    "id":"U01",
+    "units":"g",
+    "chineseUnits":"克"
+  },
+  {
+    "id":"U02",
+    "units":"oz",
+    "chineseUnits":"安士"
+  },
+  {
+    "id":"U03",
+    "units":"lb",
+    "chineseUnits":"磅"
+  },
+  {
+    "id":"U04",
+    "units":"fl oz",
+    "chineseUnits":"液體安士"
+  }
+
+]
