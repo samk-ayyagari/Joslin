@@ -5,7 +5,9 @@
         <pre>{{ home.model | json }}</pre>
       </tab> -->
       <tab ng-repeat="tab in home.tabs" heading="{{tab.title}}" class="col-lg-3 text-center" active="tab.active">
-        <div ng-include="tab.content"></div>
+        <div ng-include="tab.content" class="category-tab"></div>
       </tab>
     </tabset>
+    <div class="col-xs-12 col-lg-4 col-md-6"></div>
+    <div class="col-xs-12 col-lg-8 col-md-6"  ng-include="'modules/core/views/recipe.html'"></div>
 </div>

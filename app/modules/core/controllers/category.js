@@ -10,7 +10,7 @@
     vm.title = "By Food Category";
     vm.foodCategories = [];
     vm.cuisines = [];
-
+    vm.ingredients = [];
 
     var getCategories = (function(){
       recipeData.getFoodCategories()
@@ -23,6 +23,13 @@
       recipeData.getCuisines()
         .then(function(cuisines){
           vm.cuisines = cuisines.data;
+        });
+      })();
+
+    var getIngredients = (function(){
+      recipeData.getIngredients()
+        .then(function(ingredients){
+          vm.ingredients = ingredients.data;
         });
       })();
   }

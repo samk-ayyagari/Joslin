@@ -1,0 +1,5 @@
+<div ng-controller = "recipeController as recipe">
+  <div>
+    <div ng-repeat="ingredient in recipe.recipeDetails.ingredients" class="text-center foodProduct"><p>{{ingredient.displayName}}</p></div>
+  </div>
+</div>

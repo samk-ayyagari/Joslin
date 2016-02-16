@@ -19,9 +19,25 @@
         });
     }
 
+    function getIngredients() {
+      return $http.get("modules/core/JSON/ingredients.json")
+        .then(function (result) {
+            return result;
+        });
+    }
+
+    function getRecipe() {
+      return $http.get("modules/core/JSON/recipe.json")
+        .then(function (result) {
+            return result;
+        });
+    }
+
     return {
       getFoodCategories: getFoodCategories,
-      getCuisines: getCuisines
+      getCuisines: getCuisines,
+      getIngredients: getIngredients,
+      getRecipe: getRecipe
     }
   }
 
