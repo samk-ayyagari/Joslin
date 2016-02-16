@@ -1,3 +1,8 @@
-<div class = "col-lg-12 category" ng-controller = "categoryController as itemCategory">
-    <div ng-repeat="category in itemCategory.foodCategories" class="col-lg-2 text-center foodProduct"><p>{{category.name}}</p></div>
+<div class = "col-lg-9 category" ng-controller = "categoryController as itemCategory">
+    <data-owl-carousel class="owl-carousel" data-options="{navigation: true, pagination: false, rewindNav : false}">
+      <div owl-carousel-item="" ng-repeat="category in itemCategory.foodCategories" class="item">
+        <p>{{category.name}}</p>
+      </div>
+    </data-owl-carousel>
 </div>
+
