@@ -1,5 +1,17 @@
-<div ng-controller = "recipeController as recipe">
+<div ng-controller = "recipeController as recipe" class="recipe-details clearfix">
+  <div class="col-lg-12">
+    <span class="lbl-display pull-left">New recipe</span>
+    <span class="lbl-display pull-right">Ingredients: <b>{{recipe.recipeDetails.ingredients.length}}</b></span>
+  </div>
   <div>
-    <div ng-repeat="ingredient in recipe.recipeDetails.ingredients" class="text-center foodProduct"><p>{{ingredient.displayName}}</p></div>
+    <div ng-repeat="ingredient in recipe.recipeDetails.ingredients" class="text-center foodProduct col-lg-6 no-padding">
+      <div class="recipe-ingredient clearfix">
+        <img class="col-xs-4" ng-src={{ingredient.imgPath}}>
+        <div class="col-xs-8 no-padding">
+          <label class="col-lg-12 text-left no-padding">{{ingredient.displayName}}</label>
+          <span class="lbl-display pull-left">Portion: {{ingredient.portion + ingredient.portionFraction}} {{ingredient.measuringUnit}} | 99 kCal</span>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

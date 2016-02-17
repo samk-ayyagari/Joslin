@@ -14,6 +14,7 @@
       recipeData.getRecipe()
         .then(function(recipeDetails){
           vm.recipeDetails = recipeDetails.data;
+          vm.addIngredient = recipeDetails.data.ingredients[0];
         });
       })();
   }

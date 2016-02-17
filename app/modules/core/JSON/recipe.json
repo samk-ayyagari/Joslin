@@ -4,7 +4,8 @@
   "direction":"step1. step2. step3",
   "ingredients":[
     {
-        "portion":1.5,
+        "portion":1,
+        "portionFraction":0.5,
         "measuringUnit":"U01",
         "ingredientNameOnDb":"Mollusks, abalone, mixed species, raw",
         "refDB":"USDASR28",
@@ -19,17 +20,17 @@
         "wiki":"https://en.wikipedia.org/wiki/Abalone",
         "imgPath":"img/abalone.png",
         "nutrientContent":{
-          "calories":105,
-          "totalFat":0.76,
-          "saturatedFat":0.149,
-          "transFat":"",
-          "cholesterol":85,
-          "sodium":301,
-          "potassium":250,
-          "TotalCarbs":6.01,
-          "dietaryFiber":0,
-          "sugars":0,
-          "protein":17.1
+          "Calories":105,
+          "Total Fat(g)":0.76,
+          "Saturated Fat(g)":0.149,
+          "Trans Fat(g)":"",
+          "Cholesterol(mg)":85,
+          "Sodium(mg)":301,
+          "Potassium(mg)":250,
+          "Total Carbhydrate(g)":6.01,
+          "Dietary Fiber(g)":0,
+          "Sugars(g)":0,
+          "Protein(g)":17.1
         }
     }
   ]

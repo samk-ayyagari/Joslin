@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-angular.module('core').directive("owlCarousel", 
+angular.module('core').directive("owlCarousel",
 function () {
 	return {
 		restrict: 'E',
@@ -32,7 +32,7 @@ angular.module('core').directive('owlCarouselItem', [function() {
 		link: function(scope, element) {
 		  // wait for the last item in the ng-repeat then call init
 			if(scope.$last) {
-				scope.initCarousel(element.parent());
+				scope.initCarousel(element.closest(".owl-carousel"));
 			}
 		}
 	};
