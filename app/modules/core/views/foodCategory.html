@@ -5,8 +5,8 @@
         </div>
     </data-owl-carousel>
     <data-owl-carousel class="owl-carousel ingredientsList" data-options="{navigation: true, pagination: false, rewindNav : false}">
-        <div owl-carousel-item="" ng-repeat="ingredient in itemCategory.ingredients" class="item text-center">
-          <div><img ng-click="console.log(213)"  ng-src="{{ingredient.imgPath}}" alt="{{ingredient.displayName}} image"/></div>
+        <div owl-carousel-item=""  ng-click="itemCategory.setIngredient(ingredient)" ng-repeat="ingredient in itemCategory.ingredients" class="item clearfix text-center">
+          <div><img ng-src="{{ingredient.imgPath}}" alt="{{ingredient.displayName}} image"/></div>
           <p>{{ingredient.displayName}}</p>
         </div>
     </data-owl-carousel>

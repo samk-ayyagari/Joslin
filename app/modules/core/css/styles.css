@@ -1,4 +1,4 @@
- .no-padding{padding: 0}
+.no-padding{padding: 0}
 
 header.navbar{margin: 0}
 header.navbar-default{background-color: #fff}
@@ -211,4 +211,8 @@ header .logo img{width: 29px}
   padding: 20px 10px;
   background:#f2f2f2;
   border:1px solid #c4c2c2;
+}
+
+.recipe-details .recipe-ingredient img{
+  height: 60px;
 }

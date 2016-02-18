@@ -4,6 +4,8 @@
   angular.module('core').factory('recipeData', recipeData);
   recipeData.inject['$http'];
 
+  var selectedIngredient = {};
+
   function recipeData($http) {
     function getFoodCategories() {
       return $http.get("modules/core/JSON/foodCat.json")
@@ -33,11 +35,21 @@
         });
     }
 
+    function setIngredient(ingredient) {
+      selectedIngredient = ingredient;
+    }
+
+    function getselectedIngredient() {
+      return selectedIngredient;
+    }
+
     return {
       getFoodCategories: getFoodCategories,
       getCuisines: getCuisines,
       getIngredients: getIngredients,
-      getRecipe: getRecipe
+      getRecipe: getRecipe,
+      setIngredient: setIngredient,
+      getselectedIngredient: getselectedIngredient
     }
   }
 
